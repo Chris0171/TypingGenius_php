@@ -42,3 +42,59 @@ body {
 	margin: 0px;
 	text-decoration: underline;
 }
+
+.bg-footer-end {
+	border-top: 3px solid rgb(146, 146, 146);
+	background-color: #0000004a;
+}
+
+.card-bg-tech {
+	border: 3px solid #5983c8;
+	border-radius: 20px;
+	background-color: rgba(0, 37, 44, 0.5);
+	backdrop-filter: blur(8px);
+	box-shadow: 0px 0px 20px 2px #478ca5;
+	transition: all 0.4s ease-in-out;
+	color: white;
+}
+
+.card-bg-tech:hover {
+	box-shadow: 0px 0px 15px 4px #478ca5;
+}
+
+.card-bg-tech:hover .card-body .card-title {
+	color: rgb(255, 196, 0);
+}
+
+.bgDropdown {
+	background-image: linear-gradient(135deg, #2b3f4c, #001e32);
+}
+
+.level-box {
+	text-decoration: none;
+	outline: none;
+	border: none;
+	border-radius: 20px;
+	margin: auto;
+	padding: 8px;
+	min-width: 150px;
+	box-shadow: 0px 0px 20px 2px rgb(46, 57, 58);
+	color: white;
+	font-weight: bold;
+}
+
+.level-1 {
+	background-color: rgba(83, 99, 25, 0.8);
+}
+.level-2 {
+	background-color: rgba(127, 109, 27, 0.8);
+}
+.level-3 {
+	background-color: rgba(160, 99, 20, 0.8);
+}
+.level-4 {
+	background-color: rgba(163, 70, 23, 0.8);
+}
+.level-5 {
+	background-color: rgba(147, 37, 25, 0.8);
+}
