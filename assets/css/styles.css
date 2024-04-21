@@ -53,13 +53,12 @@ body {
 	border-radius: 20px;
 	background-color: rgba(0, 37, 44, 0.5);
 	backdrop-filter: blur(8px);
-	box-shadow: 0px 0px 20px 2px #478ca5;
-	transition: all 0.4s ease-in-out;
+	box-shadow: 0px 0px 15px 1px #478ca5;
 	color: white;
 }
 
 .card-bg-tech:hover {
-	box-shadow: 0px 0px 15px 4px #478ca5;
+	box-shadow: 0px 0px 15px 2px #478ca5;
 }
 
 .card-bg-tech:hover .card-body .card-title {
