@@ -15,9 +15,17 @@
       <nav class="navbar-nav ms-md-auto">
         <a class="nav-link fw-bold active" href="#">INICIO</a>
         <a class="nav-link fw-bold" href="#">SOBRE NOSOTROS</a>
-        <a class="nav-link fw-bold" href="#">INTRUCCIONES</a>
-        <a class="nav-link fw-bold" href="#">PARTIDA</a>
         <a class="nav-link fw-bold" href="#">PUNTUACIONES</a>
+        <div class="dropdown">
+          <button class=" nav-link fw-bold dropdown-toggle" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            PRACTICAR
+          </button>
+          <ul class="dropdown-menu dropdown-menu-dark bgDropdown">
+            <li><a class="dropdown-item" href="#">Comenzar</a></li>
+            <li><a class="dropdown-item" href="#">Instrucciones</a></li>
+          </ul>
+        </div>
       </nav>
     </div>
   </nav>
