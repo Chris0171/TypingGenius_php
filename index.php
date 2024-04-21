@@ -8,7 +8,10 @@ include ('includes/head.inc.php');
   <?php
   include ('includes/header.inc.php');
   ?>
-
+  <!-- page content -->
+  <?php
+  include ("includes/index.inc.php")
+    ?>
   <!-- Footer -->
   <?php
   include ('includes/footer.inc.php');
