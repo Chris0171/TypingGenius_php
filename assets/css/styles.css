@@ -1,5 +1,44 @@
+body {
+	background-image: url("../images/Wallpaper.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
 .bgNav {
-  background-color: #343a40;
-  background-image: linear-gradient(to bottom, #6f315e, #381744);
-  color: white;
+	background-color: #343a40;
+	background-image: linear-gradient(to bottom, #006789, #003360);
+	color: white;
+}
+
+.nav-link {
+	font-size: 18px;
+}
+
+.appTitle {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+
+.homeLink {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footerLink {
+	text-decoration: none;
+	color: white;
+}
+
+.footerLink:hover {
+	color: rgb(255, 196, 0);
+}
+
+.subMenu {
+	font-size: 20px;
+	margin: 0px;
+	text-decoration: underline;
 }
