@@ -97,3 +97,7 @@ body {
 .level-5 {
 	background-color: rgba(147, 37, 25, 0.8);
 }
+
+.card-body p {
+	text-align: justify;
+}
