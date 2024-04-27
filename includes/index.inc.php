@@ -39,7 +39,7 @@
           proporcionen ejercicios de mecanografía para practicar. Una plataforma recomendada sería TypingClub.</p>
         <br>
         <div class="text-center">
-          <a href=https://www.typingclub.com/ target="_blank" rel="noopener noreferrer" class="btnMenu">Visitar
+          <a href="https://www.typingclub.com/" target="_blank" rel="noopener noreferrer" class="btnMenu">Visitar
             TypingClub</a>
         </div>
       </div>
@@ -54,7 +54,7 @@
           teclado (utilizando todos los dedos y sin mirar las teclas), y usar la técnica de "toque" en lugar de mirar y
           buscar las letras. Una heramienta recomendada sería Keybr.</p><br>
         <div class="text-center">
-          <a href=https://www.keybr.com/ target="_blank" rel="noopener noreferrer" class="btnMenu">Visitar Keybr</a>
+          <a href="https://www.keybr.com/" target="_blank" rel="noopener noreferrer" class="btnMenu">Visitar Keybr</a>
         </div>
       </div>
     </div>
@@ -70,7 +70,7 @@
           realizar ejercicios de corrección de errores para mejorar la precisión. Una plataforma recomendada sería
           Typing.com.</p><br>
         <div class="text-center">
-          <a href=https://www.typing.com/ target="_blank" rel="noopener noreferrer" class="btnMenu">Visitar Typing</a>
+          <a href="https://www.typing.com/" target="_blank" rel="noopener noreferrer" class="btnMenu">Visitar Typing</a>
         </div>
       </div>
     </div>
@@ -83,7 +83,7 @@
           escritura. Estos eventos pueden motivarte a mejorar tus habilidades y proporcionarte una medida objetiva de tu
           progreso. Una plataforma recomendada sería Nitro Type.</p>
         <div class="text-center"><br>
-          <a href=https://www.nitrotype.com/ target="_blank" rel="noopener noreferrer" class="btnMenu">Visitar Nitro
+          <a href="https://www.nitrotype.com/" target="_blank" rel="noopener noreferrer" class="btnMenu">Visitar Nitro
             Type</a>
         </div>
       </div>
