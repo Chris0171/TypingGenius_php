@@ -20,8 +20,9 @@
             <button class="level-box level-5">Experto</button>
           </div>
         </div>
+        <br>
         <div class="text-center">
-          <a href="#" class="btn btn-primary fw-bold">Practica ahora</a>
+          <a href="#" class="btnMenu fw-bold">Practica ahora</a>
         </div>
       </div>
     </div>
@@ -36,7 +37,10 @@
           mecanografía. Dedica más tiempo a practicar la escritura, preferiblemente todos los días. Puedes
           utilizar recursos como programas en línea, libros de ejercicios o aplicaciones especializadas que te
           proporcionen ejercicios de mecanografía para practicar. Una plataforma recomendada sería TypingClub.</p>
-        <a href=https://www.typingclub.com/ target="_blank" class="btn btn-primary">Visitar TypingClub</a>
+        <br>
+        <div class="text-center">
+          <a href=https://www.typingclub.com/ target="_blank" class="btnMenu">Visitar TypingClub</a>
+        </div>
       </div>
     </div>
   </div>
@@ -47,8 +51,10 @@
         <p class="card-text">Aprender y practicar la técnica adecuada de mecanografía es esencial para mejorar tu
           velocidad y precisión. Esto implica mantener una postura ergonómica, colocar los dedos correctamente en el
           teclado (utilizando todos los dedos y sin mirar las teclas), y usar la técnica de "toque" en lugar de mirar y
-          buscar las letras. Una heramienta recomendada sería Keybr.</p>
-        <a href=https://www.keybr.com/ target="_blank" class="btn btn-primary">Visitar Keybr</a>
+          buscar las letras. Una heramienta recomendada sería Keybr.</p><br>
+        <div class="text-center">
+          <a href=https://www.keybr.com/ target="_blank" class="btnMenu">Visitar Keybr</a>
+        </div>
       </div>
     </div>
   </div>
@@ -61,8 +67,10 @@
         <p class="card-text">Además de practicar regularmente, realiza ejercicios específicos para mejorar tanto la
           velocidad como la precisión. Puedes realizar pruebas cronometradas para medir tu velocidad de escritura y
           realizar ejercicios de corrección de errores para mejorar la precisión. Una plataforma recomendada sería
-          Typing.com.</p>
-        <a href=https://www.typing.com/ target="_blank" class="btn btn-primary">Visitar Typing</a>
+          Typing.com.</p><br>
+        <div class="text-center">
+          <a href=https://www.typing.com/ target="_blank" class="btnMenu">Visitar Typing</a>
+        </div>
       </div>
     </div>
   </div>
@@ -73,7 +81,9 @@
         <p class="card-text">Únete a desafíos de mecanografía en línea o participa en competencias de velocidad de
           escritura. Estos eventos pueden motivarte a mejorar tus habilidades y proporcionarte una medida objetiva de tu
           progreso. Una plataforma recomendada sería Nitro Type.</p>
-        <a href=https://www.nitrotype.com/ target="_blank" class="btn btn-primary">Visitar Nitro Type</a>
+        <div class="text-center"><br>
+          <a href=https://www.nitrotype.com/ target="_blank" class="btnMenu">Visitar Nitro Type</a>
+        </div>
       </div>
     </div>
   </div>
