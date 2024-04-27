@@ -120,3 +120,7 @@ body {
 .btnMenu:active {
 	background-image: linear-gradient(to right, #005f6b, #001b4e);
 }
+
+.card-bg-tech p{
+	text-align: justify;
+}
