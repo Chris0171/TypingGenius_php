@@ -40,7 +40,7 @@ body {
 .subMenu {
 	font-size: 20px;
 	margin: 0px;
-	text-decoration: underline;
+	padding-left: 6px;
 }
 
 .bg-footer-end {
@@ -123,4 +123,16 @@ body {
 
 .card-bg-tech p{
 	text-align: justify;
+}
+
+.footIcon{
+	font-size: 25px;
+}
+
+.tooltipBtn{
+	text-decoration: none;
+	outline: none;
+	background-color: transparent;
+	border: none;
+	padding: 0px;
 }
