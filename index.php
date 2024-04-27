@@ -1,6 +1,13 @@
-<!-- Head -->
+<!-- Head start -->
 <?php
-include ('includes/head.inc.php');
+include ('includes/head_start.inc.php');
+?>
+
+<!-- Imports -->
+<link rel="stylesheet" href="assets/CSS/styles.css" />
+
+<?php
+include ('includes/head_end.inc.php');
 ?>
 
 <div class="container-fluid p-0 g-0">

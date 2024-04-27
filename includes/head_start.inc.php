@@ -13,15 +13,3 @@
 			integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
 			crossorigin="anonymous"
 		/>
-
-		<link rel="stylesheet" href="assets/CSS/styles.css" />
-
-		<!-- Google adsense -->
-		<script
-			async
-			src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6220548139750526"
-			crossorigin="anonymous"
-		></script>
-	</head>
-
-	<body>
