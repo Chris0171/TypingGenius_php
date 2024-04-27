@@ -35,3 +35,19 @@
     </div>
   </div>
 </div>
+<div class="row m-0 align-items-center">
+  <div class="col-12 col-md-5 offset-md-1 mb-3">
+    <div class="card card-bg-tech">
+      <div class="card-body">
+        <h5 class="card-title">Lecciones de mecanografía <span class="text-info fw-bold">[TypingStudy]</span></h5>
+        <p class="card-text">Este curso ofrece <span class="text-warning">15</span> lecciones con soporte en muchos
+          idiomas para practicar cuanto quieras. Ofrece pruebas de velocidad, algunos juegos que promueven la constancia
+          y las buenas prácticas junto a la posición. Adicionalmente posee una sección de teclado numérico.</p><br>
+        <div class="text-center">
+          <a href="https://www.typingstudy.com/es/" target="_blank" rel="noopener noreferrer" class="btnMenu">Visitar el
+            sitio</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
