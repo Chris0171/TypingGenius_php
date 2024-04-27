@@ -16,7 +16,7 @@ include ('includes/head_end.inc.php');
   include ('includes/header.inc.php');
   ?>
   <!-- page content -->
-  <div class="row justify-content-center align-items-center mt-5">
+  <div class="row justify-content-center align-items-center m-0 mt-5">
     <div class="col-12 col-md-10 card-bg-tech p-5">
       <h2 class="fw-bold">Política de privacidad <span class="text-warning fs-6">(Última actualización
           30/04/2024)</span></h2>
