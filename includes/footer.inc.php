@@ -5,7 +5,7 @@
       <a href="privacy-policy.php" class="fw-bold footerLink">Política de Privacidad</a><br>
       <a href="terms-of-use.php" class="fw-bold footerLink">Terminos de uso</a><br>
       <a href="#" class="fw-bold footerLink">Contacto</a><br>
-      <a href="#" class="fw-bold footerLink">Cookies</a><br>
+      <a href="cookies-policy.php" class="fw-bold footerLink">Cookies</a><br>
       <a href="#" class="fw-bold footerLink">Preguntas frecuentes</a><br>
     </div>
     <div class="col-md-4">
