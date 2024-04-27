@@ -85,15 +85,19 @@ body {
 .level-1 {
 	background-color: rgba(83, 99, 25, 0.8);
 }
+
 .level-2 {
 	background-color: rgba(127, 109, 27, 0.8);
 }
+
 .level-3 {
 	background-color: rgba(160, 99, 20, 0.8);
 }
+
 .level-4 {
 	background-color: rgba(163, 70, 23, 0.8);
 }
+
 .level-5 {
 	background-color: rgba(147, 37, 25, 0.8);
 }
@@ -114,25 +118,37 @@ body {
 	text-align: center;
 	background-image: linear-gradient(to right, #008fa2, #003ba8);
 }
+
 .btnMenu:hover {
 	background-image: linear-gradient(to right, #00c3dc, #004cd9);
 }
+
 .btnMenu:active {
 	background-image: linear-gradient(to right, #005f6b, #001b4e);
 }
 
-.card-bg-tech p{
+.card-bg-tech p {
 	text-align: justify;
 }
 
-.footIcon{
+.footIcon {
 	font-size: 25px;
 }
 
-.tooltipBtn{
+.tooltipBtn {
 	text-decoration: none;
 	outline: none;
 	background-color: transparent;
 	border: none;
 	padding: 0px;
+}
+
+.freeSt {
+	background-color: #009a00;
+	padding: 4px 8px;
+	border-radius: 8px;
+	box-shadow: 0px 0px 5px 1px rgb(95, 95, 95);
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
 }
