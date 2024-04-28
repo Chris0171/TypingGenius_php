@@ -15,7 +15,7 @@
         <li><a href="https://agilefingers.com/" class="fw-bold footerLink">Agile fingers</a></li>
         <li><a href="courses.php" class="fw-bold footerLink">Cursos</a></li>
         <li><a href="games.php" class="fw-bold footerLink">Juegos</a></li>
-        <li><a href="" class="fw-bold footerLink">Pruebas</a></li>
+        <li><a href="testing.php" class="fw-bold footerLink">Pruebas</a></li>
       </ul>
     </div>
     <div class="col-12 col-sm-12 col-md-4 col-lg-3 pt-md-3">
