@@ -15,10 +15,13 @@ include ('includes/head_end.inc.php');
   <?php
   include ('includes/header.inc.php');
   ?>
-  <!-- page content -->
-  <?php
-  include ('includes/courses.inc.php');
-  ?>
+  <div class="m-0 p-0 mb-5">
+    <!-- page content -->
+    <?php
+    include ('includes/courses.inc.php');
+    ?>
+  </div>
+
   <!-- Footer -->
   <?php
   include ('includes/footer.inc.php');

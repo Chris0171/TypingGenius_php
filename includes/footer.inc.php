@@ -1,4 +1,4 @@
-<footer class="m-0 mt-5 bgNav">
+<footer class="m-0 bgNav">
   <div class="row justify-content-center align-items-center p-3 m-0">
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
       <p class="fw-bold subMenu text-warning">Sitio</p>

@@ -16,7 +16,7 @@ include ('includes/head_end.inc.php');
   include ('includes/header.inc.php');
   ?>
   <!-- page content -->
-  <div class="row justify-content-center m-0 align-items-center mt-5">
+  <div class="row justify-content-center m-0 align-items-center mt-5 mb-5">
     <div class="col-12 col-md-10 card-bg-tech p-5">
       <h2 class="fw-bold text-warning">Política de cookies</h2>
       <p class="fw-bold">Por favor, lea detenidamente los siguientes términos antes de utilizar <span
