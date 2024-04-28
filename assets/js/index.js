@@ -1,4 +1,4 @@
-import { settings } from "./tootkit.js";
+import { settings } from "./toolkit.js";
 
 // * HTML elements
 //const levelNum = document.getElementsByClassName("level")[0];
