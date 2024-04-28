@@ -5,6 +5,7 @@ include ('includes/head_start.inc.php');
 
 <!-- Imports -->
 <link rel="stylesheet" href="assets/CSS/styles.css" />
+<link rel="stylesheet" href="assets/CSS/lm-styles.css" />
 
 <?php
 include ('includes/head_end.inc.php');
