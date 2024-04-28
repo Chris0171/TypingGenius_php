@@ -51,3 +51,28 @@
     </div>
   </div>
 </div>
+
+<div class="row justify-content-center m-0 align-items-center">
+  <div class="col-11 offset-md-1 text-white mb-3">
+    <h2>Cursos de mecanografía <span class="paySt">PAGO</span></h2>
+  </div>
+</div>
+
+<div class="row m-0 align-items-center">
+  <div class="col-12 col-md-5 offset-md-1 mb-3">
+    <div class="card card-bg-tech">
+      <div class="card-body p-4">
+        <h5 class="card-title">Curso de mecanografía <span class="text-info fw-bold">[TypeTopia]</span></h5>
+        <p class="card-text">Aprovecha el verano para aprender una habilidad nueva mientras te diviertes en una
+          emocionante aventura en el espacio. Aprende mecanografía jugando y completando misiones.
+          <br><span class="text-warning fw-bold">Codigó de descuento: </span> verano23.
+        </p><br>
+        <div class="text-center">
+          <a href="https://www.typetopia.com/es/veranotopia/?msclkid=2a7fb4c3a4b8189ab8d0d2edad469c14&utm_source=bing&utm_medium=cpc&utm_campaign=1.7%20-%20Search%20-%20ES%20-%20Typecursus%20-%20Performing&utm_term=mecanograf%C3%ADa%20ejercicios&utm_content=Mecanograf%C3%ADa%20-%20Typing"
+            target="_blank" rel="noopener noreferrer" class="btnMenu">Visitar
+            sitio</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
