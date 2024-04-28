@@ -5,6 +5,7 @@ include ('includes/head_start.inc.php');
 
 <!-- Imports -->
 <link rel="stylesheet" href="assets/CSS/styles.css" />
+<link rel="stylesheet" href="assets/CSS/match-styles.css" />
 <!-- Google Fonts links -->
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -32,7 +33,7 @@ include ('includes/head_end.inc.php');
 </div>
 
 <!-- Proyect script -->
-<script type="module" src="/assets/JS/match.js"></script>
+<script type="module" src="assets/JS/match.js"></script>
 
 <!-- End -->
 <?php
