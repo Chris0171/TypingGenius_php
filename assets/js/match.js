@@ -33,7 +33,7 @@ retryBtn.addEventListener("click", () => {
   location.reload();
 });
 menuBtn.addEventListener("click", () => {
-  location.href = "../../index.html";
+  location.href = "../../index.php";
 });
 
 // Typing function for de user
@@ -103,7 +103,7 @@ const setError = () => {
 };
 
 // * Initialize counter
-setTime(getTimeToCount(localSettings.level), "counter", "modalButton");
+setTime(getTimeToCount(parseInt(localSettings.level)), "counter", "modalButton");
 
 // * Apply functions
 initText();
