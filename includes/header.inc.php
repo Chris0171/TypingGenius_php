@@ -14,8 +14,9 @@
     <div class="navbar-collapse collapse" id="menu">
       <nav class="navbar-nav ms-md-auto">
         <a class="nav-link fw-bold active" href="index.php">INICIO</a>
-        <a class="nav-link fw-bold" href="#">SOBRE NOSOTROS</a>
+        <a class="nav-link fw-bold" href="about-us.php">SOBRE NOSOTROS</a>
         <a class="nav-link fw-bold" href="#">PUNTUACIONES</a>
+        <a class="nav-link fw-bold" href="#">APRENDER MÁS</a>
         <div class="dropdown">
           <button class=" nav-link fw-bold dropdown-toggle" type="button" data-bs-toggle="dropdown"
             aria-expanded="false">
