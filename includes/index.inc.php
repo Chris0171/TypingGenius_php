@@ -27,7 +27,7 @@
         </div>
         <br>
         <div class="text-center">
-          <a href="#" class="btnMenu fw-bold">Practica ahora</a>
+          <a href="match.php" class="btnMenu fw-bold">Practica ahora</a>
         </div>
       </div>
     </div>

@@ -3,15 +3,15 @@
 </div>
 <div class="counter mt-5 mb-3">00:00</div>
 
-<div class="row justify-content-center align-items-center mb-3">
-  <div class="col-8 box p-4">
+<div class="row justify-content-center align-items-center m-0 mb-3">
+  <div class="col-8 card-bg-tech p-4">
     <h4>
       <span class="text-done"></span><span class="text-typing"></span><span class="text-well"></span>
     </h4>
   </div>
 </div>
-<div class="row justify-content-center">
-  <div class="col-auto p-2 pe-5 ps-5 text-white box">
+<div class="row justify-content-center align-items-center m-0">
+  <div class="col-auto p-2 pe-5 ps-5 text-white card-bg-tech">
     <!-- Errores -->
     <div class="row">
       <div class="col-auto fs-5 text-center">
@@ -48,11 +48,11 @@
         </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btnMenu btn-re" data-bs-dismiss="modal" id="retryBtn">
+        <button type="button" id="retryBtn" class="btnMenu btn-re" data-bs-dismiss="modal">
           Reintentar
         </button>
-        <button type="button" id="menuBtn" class="btnMenu btn-Modal">
-          Menú
+        <button type="button" id="menuBtn" class="btnMenu btn-re">
+          Inicio
         </button>
       </div>
     </div>
