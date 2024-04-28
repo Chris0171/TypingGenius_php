@@ -230,5 +230,5 @@
     </div>
   </div>
   <!-- Right col -->
-  <div class="col-9 p-0 menu bg-dark bg-gradient content" id="rightCol"></div>
+  <div class="col-9 p-0 menu content" id="rightCol"></div>
 </div>
