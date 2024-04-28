@@ -5,19 +5,24 @@
         <h5 class="card-title text-center">Niveles de mecanografía</h5>
         <div class="row justify-content-center align-items-center mb-4 mt-4 text-center">
           <div class="col-12 col-md-2">
-            <button class="level-box level-1">Principiante</button>
+            <input type="radio" class="btn-check" name="level" id="1" value="1">
+            <label class="level-box level-1" for="1">Principiante</label>
           </div>
           <div class="col-12 col-md-2">
-            <button class="level-box level-2">Intermedio</button>
+            <input type="radio" class="btn-check" name="level" id="2" value="2">
+            <label class="level-box level-2" for="2">Intermedio</label>
           </div>
           <div class="col-12 col-md-2">
-            <button class="level-box level-3">Avanzado</button>
+            <input type="radio" class="btn-check" name="level" id="3" value="3">
+            <label class="level-box level-3" for="3">Avanzado</label>
           </div>
           <div class="col-12 col-md-2">
-            <button class="level-box level-4">Profesional</button>
+          <input type="radio" class="btn-check" name="level" id="4" value="4">
+            <label class="level-box level-4" for="4">Profesional</label>
           </div>
           <div class="col-12 col-md-2">
-            <button class="level-box level-5">Experto</button>
+          <input type="radio" class="btn-check" name="level" id="5" value="5">
+            <label class="level-box level-5" for="5">Experto</label>
           </div>
         </div>
         <br>
