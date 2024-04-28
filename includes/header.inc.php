@@ -15,8 +15,7 @@
       <nav class="navbar-nav ms-md-auto">
         <a class="nav-link fw-bold active" href="index.php">INICIO</a>
         <a class="nav-link fw-bold" href="about-us.php">SOBRE NOSOTROS</a>
-        <a class="nav-link fw-bold" href="#">PUNTUACIONES</a>
-        <a class="nav-link fw-bold" href="#">APRENDER MÁS</a>
+        <a class="nav-link fw-bold" href="learn-more.php">APRENDER MÁS</a>
         <div class="dropdown">
           <button class=" nav-link fw-bold dropdown-toggle" type="button" data-bs-toggle="dropdown"
             aria-expanded="false">
@@ -27,6 +26,7 @@
             <li><a class="dropdown-item" href="#">Instrucciones</a></li>
           </ul>
         </div>
+        <a class="nav-link fw-bold" href="#">PUNTUACIONES</a>
       </nav>
     </div>
   </nav>
