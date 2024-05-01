@@ -17,11 +17,11 @@
             <label class="level-box level-3" for="3">Avanzado</label>
           </div>
           <div class="col-12 col-md-2">
-          <input type="radio" class="btn-check" name="level" id="4" value="4">
+            <input type="radio" class="btn-check" name="level" id="4" value="4">
             <label class="level-box level-4" for="4">Profesional</label>
           </div>
           <div class="col-12 col-md-2">
-          <input type="radio" class="btn-check" name="level" id="5" value="5">
+            <input type="radio" class="btn-check" name="level" id="5" value="5">
             <label class="level-box level-5" for="5">Experto</label>
           </div>
         </div>
@@ -40,8 +40,8 @@
         <h5 class="card-title">Práctica regular</h5>
         <p class="card-text">La práctica constante es fundamental para mejorar la velocidad y precisión en la
           mecanografía. Dedica más tiempo a practicar la escritura, preferiblemente todos los días. Puedes
-          utilizar recursos como programas en línea, libros de ejercicios o aplicaciones especializadas que te
-          proporcionen ejercicios de mecanografía para practicar. Una plataforma recomendada sería TypingClub.</p>
+          utilizar recursos como programas en línea, libros o aplicaciones especializadas que te proporcionen ejercicios
+          de mecanografía para practicar. La prataforma más recomendada sería TypingClub.</p>
         <br>
         <div class="text-center">
           <a href="https://www.typingclub.com/" target="_blank" rel="noopener noreferrer" class="btnMenu">Visitar
