@@ -25,6 +25,14 @@
             <label class="level-box level-5" for="5">Experto</label>
           </div>
         </div>
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12">
+            <p class="fw-bold p-2">Esta sesión de practicas consta de <span class=" text-warning">5</span> de
+              niveles dificultad. En cada intento puede visualizar sus errores y un recordatorio del nivel
+              en el que se encuentra. Mejore sus habilidades con cada intento. <span class="text-info">¡Mucha
+                suerte!</span></p>
+          </div>
+        </div>
         <br>
         <div class="text-center">
           <a href="match.php" class="btnMenu fw-bold">Practica ahora</a>

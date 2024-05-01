@@ -16,8 +16,8 @@
         <a class="nav-link fw-bold active" href="index.php">INICIO</a>
         <a class="nav-link fw-bold" href="about-us.php">SOBRE NOSOTROS</a>
         <a class="nav-link fw-bold" href="learn-more.php">APRENDER MÁS</a>
-        <a class="nav-link fw-bold" href="learn-more.php">INSTRUCCIONES</a>
-        <a class="nav-link fw-bold" href="#">PUNTUACIONES</a>
+        <a class="nav-link fw-bold" href="instructions.php">INSTRUCCIONES</a>
+        <a class="nav-link fw-bold" href="instructions.php">PUNTUACIONES</a>
       </nav>
     </div>
   </nav>
