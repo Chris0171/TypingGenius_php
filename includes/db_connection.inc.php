@@ -44,6 +44,10 @@ class DbConnection
     // Cerrar la conexión a la base de datos
     $this->conn->close();
   }
+  public function getConn()
+  {
+    return $this->conn;
+  }
 }
 
 ?>
