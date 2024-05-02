@@ -90,7 +90,7 @@ const printTime = (m, s, text) => {
 	}
 };
 
-const insertUser = (value1, value2, path) => {
+const saveUser = (name, level, errors, path) => {
 	// Realizar la solicitud utilizando Fetch
 	fetch(path, {
 		method: "POST", // Método de la solicitud
@@ -98,8 +98,9 @@ const insertUser = (value1, value2, path) => {
 			"Content-Type": "application/json", // Tipo de contenido del cuerpo de la solicitud (en este caso, JSON)
 		},
 		body: JSON.stringify({
-			valor1: value1,
-			valor2: value2,
+			alias: name,
+			level: level,
+			nErrors: errors,
 		}),
 	})
 		.then(function (response) {
