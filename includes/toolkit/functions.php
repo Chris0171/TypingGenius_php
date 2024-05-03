@@ -11,4 +11,19 @@ function generatePass()
   return $pass;
 }
 
+function sortUsers($allUsers)
+{
+  usort($allUsers, function ($a, $b) {
+    // * Compare by level (descending order)
+    if ($a['nivel'] != $b['nivel']) {
+      return $b['nivel'] - $a['nivel'];
+    } else {
+      // * If the levels are the same, compare by errors (ascending order)
+      return $a['errores'] - $b['errores'];
+    }
+  });
+
+  return $allUsers;
+}
+
 ?>
