@@ -149,7 +149,8 @@ body {
 	padding: 0px;
 }
 
-.freeSt, .paySt {
+.freeSt,
+.paySt {
 	background-color: #009a00;
 	padding: 4px 8px;
 	border-radius: 8px;
@@ -159,6 +160,26 @@ body {
 	font-weight: bold;
 }
 
-.paySt{
+.paySt {
 	background-color: #a30000;
+}
+
+.scrollTable {
+	max-height: 204px;
+	overflow-y: scroll;
+}
+
+.tableSt {
+	width: 100%;
+	background-color: #00c2dc29;
+	border-radius: 15px;
+}
+
+.tableSt thead tr th,
+.tableSt tbody tr td {
+	padding: 10px;
+	border-bottom: 2px solid white;
+}
+.tableSt tbody tr:last-child td {
+	border-bottom: none;
 }
