@@ -13,11 +13,11 @@
     </button>
     <div class="navbar-collapse collapse" id="menu">
       <nav class="navbar-nav ms-md-auto">
-        <a class="nav-link fw-bold active" href="index.php">INICIO</a>
-        <a class="nav-link fw-bold" href="about-us.php">SOBRE NOSOTROS</a>
-        <a class="nav-link fw-bold" href="learn-more.php">APRENDER MÁS</a>
-        <a class="nav-link fw-bold" href="instructions.php">INSTRUCCIONES</a>
-        <a class="nav-link fw-bold" href="scores.php">MEJORES</a>
+        <a class="nav-link fw-bold" id="index" href="index.php">INICIO</a>
+        <a class="nav-link fw-bold" id="about-us" href="about-us.php">SOBRE NOSOTROS</a>
+        <a class="nav-link fw-bold" id="learn-more" href="learn-more.php">APRENDER MÁS</a>
+        <a class="nav-link fw-bold" id="instructions" href="instructions.php">INSTRUCCIONES</a>
+        <a class="nav-link fw-bold" id="scores" href="scores.php">MEJORES</a>
       </nav>
     </div>
   </nav>
