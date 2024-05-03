@@ -17,7 +17,7 @@
         <a class="nav-link fw-bold" href="about-us.php">SOBRE NOSOTROS</a>
         <a class="nav-link fw-bold" href="learn-more.php">APRENDER MÁS</a>
         <a class="nav-link fw-bold" href="instructions.php">INSTRUCCIONES</a>
-        <a class="nav-link fw-bold" href="instructions.php">PUNTUACIONES</a>
+        <a class="nav-link fw-bold" href="scores.php">MEJORES</a>
       </nav>
     </div>
   </nav>
