@@ -131,5 +131,5 @@ export {
 	getRandomText,
 	getTimeToCount,
 	printTime,
-	insertUser,
+	saveUser,
 };
