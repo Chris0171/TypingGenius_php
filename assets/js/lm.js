@@ -76,4 +76,5 @@ document.addEventListener("DOMContentLoaded", () => {
 			applyEvents();
 		});
 	currentOption = 1;
+	document.getElementById("learn-more").classList.add("active");
 });

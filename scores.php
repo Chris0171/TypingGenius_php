@@ -69,6 +69,9 @@ if ($allUsers) {
   ?>
 </div>
 
+<!-- Proyect script -->
+<script src="assets/JS/scores.js"></script>
+
 <!-- End -->
 <?php
 include ('includes/end.inc.php');

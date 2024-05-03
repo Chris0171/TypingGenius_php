@@ -69,8 +69,7 @@ include ('includes/head_end.inc.php');
 </div>
 
 <!-- Proyect script -->
-<script src=" assets/JS/lm.js">
-</script>
+<script src="assets/JS/instructions.js"></script>
 
 <!-- End -->
 <?php

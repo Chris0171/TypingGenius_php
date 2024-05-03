@@ -49,6 +49,9 @@ include ('includes/head_end.inc.php');
   ?>
 </div>
 
+<!-- Proyect script -->
+<script src="assets/JS/about-us.js"></script>
+
 <!-- End -->
 <?php
 include ('includes/end.inc.php');
