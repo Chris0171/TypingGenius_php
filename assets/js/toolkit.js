@@ -90,36 +90,30 @@ const printTime = (m, s, text) => {
 	}
 };
 
-const saveUser = (name, level, errors, path) => {
-	// Realizar la solicitud utilizando Fetch
-	fetch(path, {
-		method: "POST", // Método de la solicitud
-		headers: {
-			"Content-Type": "application/json", // Tipo de contenido del cuerpo de la solicitud (en este caso, JSON)
-		},
-		body: JSON.stringify({
-			alias: name,
-			level: level,
-			nErrors: errors,
-		}),
-	})
-		.then(function (response) {
-			// Verificar si la respuesta es exitosa
-			if (!response.ok) {
-				throw new Error("Error en la solicitud: " + response.status);
-			}
-
-			// Devolver la respuesta como JSON
-			return response.json();
-		})
-		.then(function (data) {
-			// Trabajar con los datos obtenidos
-			console.log("Resultado de la consulta:", data.resultado);
-		})
-		.catch(function (error) {
-			// Manejar errores
-			console.error("Error:", error);
+const saveUser = async (name, level, errors, pass, path) => {
+	try {
+		const response = await fetch(path, {
+			method: "POST",
+			headers: {
+				"Content-Type": "application/json",
+			},
+			body: JSON.stringify({
+				alias: name,
+				level: level,
+				nErrors: errors,
+				password: pass,
+			}),
 		});
+
+		if (!response.ok) {
+			throw new Error("Error en la solicitud: " + response.status);
+		}
+
+		const data = await response.json();
+		return data;
+	} catch (error) {
+		throw error;
+	}
 };
 
 export {

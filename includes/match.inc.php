@@ -27,10 +27,10 @@
 </div>
 
 <!-- Over Modal -->
-<button type="button" id="modalButton" data-bs-toggle="modal" data-bs-target="#overMdoal"></button>
-<div class="modal fade mt-5" id="overMdoal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+<button type="button" id="modalButton" data-bs-toggle="modal" data-bs-target="#overModal"></button>
+<div class="modal fade mt-5" id="overModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
   aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-lg modal-dialog-scrollable">
     <div class="modal-content modal-box">
       <div class="modal-header">
         <h2 class="modal-title text-center" id="over-title">
@@ -46,6 +46,41 @@
         <div id="moBody" class="mt-3 fs-5">
           No ha conseguido superar con éxito la prueba en el nivel actual.
         </div>
+        <!-- Save User -->
+        <form action="actions/insertUser.php" method="post" class="p-3" id="saveUserForm">
+          <h4 class="text-info fw-bold">¿Quieres que te recordemos?</h4>
+          <h5 class="text-info fw-bold">Crear un alias: </h5>
+          <!-- Alias Field -->
+          <div class="input-group mb-2">
+            <span class="input-group-text"><i class="bi bi-person"></i></span>
+            <input type="text" class="form-control" id="aliasField" placeholder="Introduce tu alias">
+          </div>
+          <!-- Alerts -->
+          <div class="mb-2">
+            <div class="alert alert-success" id="aliasMessage">
+              El usuario ya existe. Para sobrescribir estadísticas, introduzca la contraseña.
+            </div>
+            <div class="alert alert-danger" id="aliasAlert">
+              El 'alias' debe contener entre 5 y 15 caracteres.
+            </div>
+          </div>
+          <!-- Password Field -->
+          <div class="input-group passImp mb-2">
+            <span class="input-group-text"><i class="bi bi-key-fill"></i></span>
+            <input type="text" class="form-control" id="passwordField"
+              placeholder="Pega la contraseña correspondiente...">
+          </div>
+          <!-- Alerts -->
+          <div class="mb-2">
+            <div class="alert alert-danger" id="passAlert">
+              Contraseña incorrecta. Debe pegar la constraseña que le hemos asignado a su usuario.
+            </div>
+          </div>
+          <input type="hidden" name="level" id="levelField" value="null">
+          <input type="hidden" name="errors" id="errorField" value="null">
+          <!-- Submit button -->
+          <button class="btnMenu" id="submitBtn">Guardar</button>
+        </form>
       </div>
       <div class="modal-footer">
         <button type="button" id="retryBtn" class="btnMenu btn-re" data-bs-dismiss="modal">

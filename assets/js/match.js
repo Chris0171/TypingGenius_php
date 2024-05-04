@@ -6,7 +6,7 @@ import {
 	getRandomText,
 	getTimeToCount,
 	printTime,
-	insertUser,
+	saveUser,
 } from "./toolkit.js";
 
 // * HTML elements
@@ -19,6 +19,16 @@ const moBody = document.getElementById("moBody");
 const overTitle = document.getElementById("over-title");
 const retryBtn = document.getElementById("retryBtn");
 const menuBtn = document.getElementById("menuBtn");
+const aliasField = document.getElementById("aliasField");
+const aliasMessage = document.getElementById("aliasMessage");
+const aliasAlert = document.getElementById("aliasAlert");
+const saveUserForm = document.getElementById("saveUserForm");
+const passwordField = document.getElementById("passwordField");
+const passImp = document.getElementsByClassName("passImp")[0];
+const passAlert = document.getElementById("passAlert");
+const submitBtn = document.getElementById("submitBtn");
+const levelField = document.getElementById("levelField");
+const errorField = document.getElementById("errorField");
 
 let myText = getRandomText();
 let localSettings = JSON.parse(localStorage.getItem("settings"));
@@ -28,12 +38,67 @@ let isPress = true;
 let keyPress = null;
 let typedKey = null;
 
+// other vars
+let allUsers = null;
+let userExist = false;
+
 // Events
 retryBtn.addEventListener("click", () => {
 	location.reload();
 });
 menuBtn.addEventListener("click", () => {
 	location.href = "../../index.php";
+});
+aliasField.addEventListener("input", () => {
+	let currentAlias = aliasField.value;
+	let flag = false;
+
+	// Check if actual alias exist
+	for (let i = 0; i < allUsers.length; i++) {
+		if (allUsers[i]["alias"] == currentAlias) {
+			flag = true;
+		}
+	}
+	userExist = flag;
+
+	// * Show success message
+	if (userExist) {
+		aliasMessage.style.display = "block"; // TODO: check display
+		passImp.style.display = "flex";
+	} else {
+		aliasMessage.style.display = "none";
+		passwordField.value = "";
+		passImp.style.display = "none";
+	}
+
+	if (aliasField.value.length <= 15 && aliasField.value.length >= 5) {
+		aliasAlert.style.display = "none";
+	} else aliasAlert.style.display = "block";
+});
+
+submitBtn.addEventListener("click", async (event) => {
+	event.preventDefault();
+
+	if (!userExist) {
+		if (aliasField.value.length <= 15) {
+			saveUserForm.submit();
+		}
+	} else {
+		try {
+			let alias = aliasField.value;
+			let pass = passwordField.value;
+			const data = await saveUser(alias, "", "", pass, "actions/checkPass.php");
+			let passCorrect = data;
+			if (passCorrect["isCorrect"]) {
+				passAlert.style.display = "none";
+				console.log("Contraseña correcta");
+			} else {
+				passAlert.style.display = "block";
+			}
+		} catch (error) {
+			console.error("Error al guardar el usuario:", error);
+		}
+	}
 });
 
 // Typing function for de user
@@ -56,6 +121,7 @@ const detectKeyDown = () => {
 					setError();
 				}
 			}
+			// * Game success
 			if (textWell.textContent.length <= 0 && textTyping.textContent === "") {
 				document.getElementById("modalButton").click();
 				overTitle.textContent = "Felicitaciones";
@@ -63,6 +129,9 @@ const detectKeyDown = () => {
 					"¡Ha conseguido superar el nivel satisfactoriamente!";
 				isTyping = false;
 				clearInterval(interval);
+				saveUserForm.style.display = "block";
+				levelField.value = localSettings.level;
+				errorField.value = errors;
 			}
 			if (isPress) {
 				keyPress = typedKey;
@@ -107,6 +176,20 @@ setTime(
 	"modalButton"
 );
 
-// * Apply functions
-initText();
-detectKeyDown();
+document.addEventListener("DOMContentLoaded", async function () {
+	// get users
+	try {
+		const data = await saveUser("", "", "", "", "actions/readUser.php");
+		allUsers = data;
+	} catch (error) {
+		console.error("Error al guardar el usuario:", error);
+	}
+	aliasAlert.style.display = "none";
+	aliasMessage.style.display = "none";
+	passAlert.style.display = "none";
+	passImp.style.display = "none";
+
+	// * Apply functions
+	initText();
+	detectKeyDown();
+});

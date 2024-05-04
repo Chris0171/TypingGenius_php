@@ -50,7 +50,7 @@ h4 {
 	transform: scale(0.98);
 }
 
-#modalButton{
+#modalButton {
 	display: none;
 }
 
@@ -67,6 +67,13 @@ h4 {
 	box-shadow: 0px 0px 20px 4px #478ca5;
 }
 
+.passImp {
+	display: none;
+}
+
+#saveUserForm {
+	display: none;
+}
 
 @keyframes flicker {
 	0% {
