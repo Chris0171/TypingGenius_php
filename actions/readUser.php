@@ -16,12 +16,11 @@ if ($allUsers) {
   while ($row = $allUsers->fetch_assoc()) {
     $rows[] = $row;
   }
-
   header('Content-Type: application/json');
   echo json_encode($rows);
 } else {
   header('Content-Type: application/json');
-  echo json_encode(array("error", "no se han encontrado usuarios..."));
+  echo json_encode(array("error" => "no se han encontrado usuarios..."));
 }
 
 ?>

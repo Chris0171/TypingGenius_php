@@ -7,13 +7,9 @@ $conn = new DbConnection("localhost", "root", "Codecreatoruserunknown01", "typin
 
 $conn->connect();
 
-//$alias = $_POST['alias'];
-//$level = $_POST['level'];
-//$errors = $_POST['errors'];
-
-$alias = "Unknown0";
-$level = 1;
-$errors = 24;
+$alias = $_POST['alias'];
+$level = $_POST['level'];
+$errors = $_POST['errors'];
 
 $password = generatePass();
 
