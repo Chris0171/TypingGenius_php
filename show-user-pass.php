@@ -20,7 +20,7 @@ include ('includes/head_end.inc.php');
   ?>
   <!-- page content -->
   <div class="row justify-content-center m-0 align-items-center mt-5 mb-5">
-    <div class="col-12 col-md-10 card-bg-tech p-5">
+    <div class="col-12 col-md-10 col-lg-5 card-bg-tech p-5">
       <h3 class="fw-bold text-warning mb-3">TU CONTRASEÑA AUTOGENERADA</h3>
       <h5>Se ha generado una contraseña para tu alias
         <span class="text-warning">[<?php echo $alias; ?>]</span>

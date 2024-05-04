@@ -28,7 +28,7 @@
 
 <!-- Over Modal -->
 <button type="button" id="modalButton" data-bs-toggle="modal" data-bs-target="#overModal"></button>
-<div class="modal fade mt-5" id="overModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+<div class="modal fade mt-2" id="overModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
   aria-hidden="true">
   <div class="modal-dialog modal-lg modal-dialog-scrollable">
     <div class="modal-content modal-box">
@@ -43,12 +43,12 @@
         <br />
         <i class="bi bi-exclamation-circle-fill text-danger fs-4"><span class="ps-2 fw-medium text-white">Errores: <span
               class="errorNum">0</span></span></i>
-        <div id="moBody" class="mt-3 fs-5">
+        <div id="moBody" class="mt-3 mb-3 fs-5">
           No ha conseguido superar con éxito la prueba en el nivel actual.
         </div>
         <!-- Save User -->
-        <form action="actions/insertUser.php" method="post" class="p-3" id="saveUserForm">
-          <h4 class="text-info fw-bold">¿Quieres que te recordemos?</h4>
+        <form action="actions/insertUser.php" method="post" id="saveUserForm">
+          <h4 class="text-info fw-bold mb-2">¿Quieres que te recordemos?</h4>
           <h5 class="text-info fw-bold">Crear un alias: </h5>
           <!-- Alias Field -->
           <div class="input-group mb-2">
@@ -71,7 +71,7 @@
               placeholder="Pega la contraseña correspondiente...">
           </div>
           <!-- Alerts -->
-          <div class="mb-2">
+          <div class="mb-3">
             <div class="alert alert-danger" id="passAlert">
               Contraseña incorrecta. Debe pegar la constraseña que le hemos asignado a su usuario.
             </div>
@@ -79,7 +79,9 @@
           <input type="hidden" name="level" id="levelField" value="null">
           <input type="hidden" name="errors" id="errorField" value="null">
           <!-- Submit button -->
-          <button class="btnMenu" id="submitBtn">Guardar</button>
+          <div class="text-end">
+            <button class="btnMenu" id="submitBtn">Guardar</button>
+          </div>
         </form>
       </div>
       <div class="modal-footer">

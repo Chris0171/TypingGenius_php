@@ -47,7 +47,7 @@ retryBtn.addEventListener("click", () => {
 	location.reload();
 });
 menuBtn.addEventListener("click", () => {
-	location.href = "../../index.php";
+	location.href = "index.php";
 });
 aliasField.addEventListener("input", () => {
 	let currentAlias = aliasField.value;
