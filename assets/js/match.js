@@ -81,6 +81,8 @@ submitBtn.addEventListener("click", async (event) => {
 
 	if (!userExist) {
 		if (aliasField.value.length <= 15) {
+			// * Change action if it's diferent
+			saveUserForm.action = "actions/insertUser.php";
 			saveUserForm.submit();
 		}
 	} else {
@@ -92,6 +94,9 @@ submitBtn.addEventListener("click", async (event) => {
 			if (passCorrect["isCorrect"]) {
 				passAlert.style.display = "none";
 				console.log("Contraseña correcta");
+				// * Change action
+				saveUserForm.action = "actions/updateUser.php";
+				saveUserForm.submit();
 			} else {
 				passAlert.style.display = "block";
 			}
@@ -104,6 +109,10 @@ submitBtn.addEventListener("click", async (event) => {
 // Typing function for de user
 const detectKeyDown = () => {
 	document.addEventListener("keydown", (event) => {
+		if (event.key === " ") {
+			// Previene el comportamiento predeterminado de la tecla de espacio
+			event.preventDefault();
+		}
 		if (!counterClear && isTyping) {
 			typedKey = event.key;
 			let letter = textTyping.textContent;

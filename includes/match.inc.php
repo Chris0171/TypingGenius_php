@@ -53,7 +53,7 @@
           <!-- Alias Field -->
           <div class="input-group mb-2">
             <span class="input-group-text"><i class="bi bi-person"></i></span>
-            <input type="text" class="form-control" id="aliasField" placeholder="Introduce tu alias">
+            <input type="text" name="alias" class="form-control" id="aliasField" placeholder="Introduce tu alias">
           </div>
           <!-- Alerts -->
           <div class="mb-2">
@@ -67,7 +67,7 @@
           <!-- Password Field -->
           <div class="input-group passImp mb-2">
             <span class="input-group-text"><i class="bi bi-key-fill"></i></span>
-            <input type="text" class="form-control" id="passwordField"
+            <input type="text" class="form-control" id="passwordField" name="password"
               placeholder="Pega la contraseña correspondiente...">
           </div>
           <!-- Alerts -->

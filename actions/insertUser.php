@@ -13,8 +13,6 @@ $errors = $_POST['errors'];
 
 $password = generatePass();
 
-echo $password;
-
 $passHash = password_hash($password, PASSWORD_DEFAULT);
 
 // Consulta SQL con marcadores de posición
@@ -27,7 +25,16 @@ $stmt = $conn->getConn()->prepare($query);
 $stmt->bind_param("siis", $alias, $level, $errors, $passHash);
 
 if ($stmt->execute()) {
-  echo "Inserción exitosa";
+  // Iniciar sessión
+  session_start();
+
+  // Guardar constraseña
+  $_SESSION['generated_password'] = $password;
+  $_SESSION['alias'] = $alias;
+
+  // Redireccionar
+  header("Location: ../show-user-pass.php");
+  exit;
 } else {
   echo "Error en la inserción: " . $conn->getConn()->error;
 }

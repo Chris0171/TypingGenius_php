@@ -7,15 +7,15 @@ $conn = new DbConnection("localhost", "root", "Codecreatoruserunknown01", "typin
 
 $conn->connect();
 
-// $alias = $_POST['alias'];
-// $level = $_POST['level'];
-// $errors = $_POST['errors']; 
-// $pass = $_POST['password'];
+$alias = $_POST['alias'];
+$level = $_POST['level'];
+$errors = $_POST['errors'];
+$pass = $_POST['password'];
 
-$alias = "Unknown0";
-$level = 3;
-$errors = 16;
-$pass = "d245a6f966";
+// $alias = "Unknown0";
+// $level = 3;
+// $errors = 16;
+// $pass = "d245a6f966";
 
 // Consulta SQL con marcadores de posición
 $query = "SELECT pass FROM Usuarios Where alias = ?";
