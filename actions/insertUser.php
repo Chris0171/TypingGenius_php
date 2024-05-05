@@ -2,8 +2,9 @@
 
 include "../includes/toolkit/functions.php";
 include "../includes/db_connection.inc.php";
+include "config.php";
 
-$conn = new DbConnection("localhost", "root", "Codecreatoruserunknown01", "typinggenius_db");
+$conn = new DbConnection($database["host"], $database["username"], $database["password"], $database["dbName"]);
 
 $conn->connect();
 

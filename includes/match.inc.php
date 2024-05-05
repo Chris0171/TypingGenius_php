@@ -67,7 +67,7 @@
           <!-- Password Field -->
           <div class="input-group passImp mb-2">
             <span class="input-group-text"><i class="bi bi-key-fill"></i></span>
-            <input type="text" class="form-control" id="passwordField" name="password"
+            <input type="password" class="form-control" id="passwordField" name="password"
               placeholder="Pega la contraseña correspondiente...">
           </div>
           <!-- Alerts -->

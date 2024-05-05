@@ -1,3 +1,29 @@
+<?php
+session_start();
+?>
+<div class="row justify-content-center align-items-center m-0 mt-5">
+  <div class="col-11 col-md-10">
+    <?php
+    if (isset($_SESSION['isOk'])) {
+      $isOk = $_SESSION['isOk'];
+      if ($isOk) {
+        ?>
+    <div class="alert alert-success fw-bold">
+      Las estadísticas de usuario han sido actualizadas. ¡Disfrute de nuestro sitio web!
+    </div>
+    <?php
+      } else {
+        ?>
+    <div class="alert alert-danger fw-bold">
+      Las estadísticas de usuario no han sido actualizadas. Ha habido algún error. Lo solucionaremos en breve.
+    </div>
+    <?php
+      }
+    }
+    ?>
+  </div>
+</div>
+
 <div class="row justify-content-center align-items-center m-0 mt-5">
   <div class="col-10">
     <div class="card card-bg-tech">

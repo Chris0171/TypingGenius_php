@@ -165,8 +165,10 @@ body {
 }
 
 .scrollTable {
-	max-height: 204px;
+	max-height: 500px;
 	overflow-y: scroll;
+	border-radius: 15px;
+	padding-right: 1px;
 }
 
 .tableSt {
@@ -175,13 +177,20 @@ body {
 	border-radius: 15px;
 }
 
+.tableSt thead {
+	background-image: linear-gradient(to bottom, #006789, #003360);
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
 .tableSt thead tr th,
 .tableSt tbody tr td {
 	padding: 10px 5px;
 	border-bottom: 2px solid white;
 }
 .tableSt tbody tr td {
-	color: #dfc500;
+	color: #ffff00;
 	font-weight: 600;
 }
 
@@ -206,4 +215,49 @@ body {
 	backdrop-filter: blur(8px);
 	box-shadow: 0px 0px 10px 0.5px #5c8391;
 	color: white;
+}
+
+.btnCopy {
+	color: white;
+	padding: 10px 30px;
+	font-size: 18px;
+	font-weight: 800;
+	outline: none;
+	border: none;
+	border-radius: 12px;
+	text-align: center;
+	background-image: linear-gradient(to right, #11917d, #0a61b3);
+	box-shadow: 0px 0px 15px 1px rgb(93, 138, 163);
+}
+
+.btnCopy:hover {
+	box-shadow: 0px 0px 8px 1px rgb(93, 138, 163);
+}
+
+.btnCopy:active {
+	background-image: linear-gradient(to right, #19584e, #163d62);
+	box-shadow: 0px 0px 8px 1px rgb(93, 138, 163);
+}
+
+#copyAlert {
+	display: none;
+}
+
+.scrollTable::-webkit-scrollbar {
+	width: 15px;
+}
+
+/* Cambiar el color del fondo de la barra del scroll */
+.scrollTable::-webkit-scrollbar-track {
+	background: #ffffff; /* Color de fondo */
+	box-shadow: 0px 0px 8px 1px rgb(93, 138, 163);
+	border-radius: 5px;
+	border-radius: 5px;
+}
+
+/* Cambiar el color del "thumb" (la parte móvil del scroll) */
+.scrollTable::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	border-radius: 5px;
+	background-image: linear-gradient(to bottom, #003360, #006789, #003360);
 }

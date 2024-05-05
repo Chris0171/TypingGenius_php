@@ -11,8 +11,9 @@ include ('includes/head_end.inc.php');
 
 include "includes/toolkit/functions.php";
 include "includes/db_connection.inc.php";
+include "config.php";
 
-$conn = new DbConnection("localhost", "root", "Codecreatoruserunknown01", "typinggenius_db");
+$conn = new DbConnection($database["host"], $database["username"], $database["password"], $database["dbName"]);
 
 $conn->connect();
 
@@ -37,7 +38,7 @@ if ($allUsers) {
   <!-- page content -->
   <div class="row justify-content-center m-0 align-items-center mt-5 mb-5">
     <div class="col-12 col-md-10 col-lg-8 card-bg-tech p-5">
-      <div class="">
+      <div class="scrollTable">
         <table class="text-center p-3 text-white tableSt">
           <thead class="">
             <tr>

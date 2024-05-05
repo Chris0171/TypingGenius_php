@@ -33,4 +33,7 @@ include ('includes/head_end.inc.php');
 <!-- End -->
 <?php
 include ('includes/end.inc.php');
+
+session_unset(); // Limpia todas las variables de sesión
+session_destroy(); // Destruye completamente la sesión
 ?>
