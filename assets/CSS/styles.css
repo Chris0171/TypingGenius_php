@@ -11,6 +11,9 @@ body {
 	background-image: linear-gradient(to bottom, #006789, #003360);
 	color: white;
 }
+.bgDropdown{
+	background-image: linear-gradient(to bottom, #7faaba, #164064);
+}
 
 .nav-link {
 	font-size: 18px;
