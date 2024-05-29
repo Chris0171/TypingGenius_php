@@ -19,7 +19,7 @@
             PRACTICAR
           </button>
           <ul class="dropdown-menu dropdown-menu-dark bgDropdown p-2">
-            <li><a class="dropdown-item" href="#">Practicar la mecanografía</a></li>
+            <li><a class="dropdown-item" href="practice.php">Practicar la mecanografía</a></li>
             <li><a class="dropdown-item" href="#">Ejercicios de mecanografía</a></li>
             <hr class="text-warning border border-2">
             <li><a class="dropdown-item" href="#">Intruciones de prueba</a></li>

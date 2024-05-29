@@ -139,50 +139,6 @@ session_start();
     </div>
   </div>
 </div>
-
-<div class="row justify-content-center align-items-center m-0 mt-5">
-  <div class="col-10">
-    <div class="card card-bg-tech">
-      <div class="card-body">
-        <h5 class="card-title text-center">Niveles de mecanografía</h5>
-        <div class="row justify-content-center align-items-center mb-4 mt-4 text-center">
-          <div class="col-12 col-md-2">
-            <input type="radio" class="btn-check" name="level" id="1" value="1">
-            <label class="level-box level-1" for="1">Principiante</label>
-          </div>
-          <div class="col-12 col-md-2">
-            <input type="radio" class="btn-check" name="level" id="2" value="2">
-            <label class="level-box level-2" for="2">Intermedio</label>
-          </div>
-          <div class="col-12 col-md-2">
-            <input type="radio" class="btn-check" name="level" id="3" value="3">
-            <label class="level-box level-3" for="3">Avanzado</label>
-          </div>
-          <div class="col-12 col-md-2">
-            <input type="radio" class="btn-check" name="level" id="4" value="4">
-            <label class="level-box level-4" for="4">Profesional</label>
-          </div>
-          <div class="col-12 col-md-2">
-            <input type="radio" class="btn-check" name="level" id="5" value="5">
-            <label class="level-box level-5" for="5">Experto</label>
-          </div>
-        </div>
-        <div class="row justify-content-center align-items-center">
-          <div class="col-12">
-            <p class="fw-bold p-2">Esta sesión de practicas consta de <span class=" text-warning">5</span> de
-              niveles dificultad. En cada intento puede visualizar sus errores y un recordatorio del nivel
-              en el que se encuentra. Mejore sus habilidades con cada intento. <span class="text-info">¡Mucha
-                suerte!</span></p>
-          </div>
-        </div>
-        <br>
-        <div class="text-center">
-          <a href="match.php" class="btnMenu fw-bold">Practica ahora</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 <div class="row justify-content-center align-items-center m-0 mt-3">
   <div class="col-11 col-md-5 mb-3 mb-md-0">
     <div class="card card-bg-tech">
