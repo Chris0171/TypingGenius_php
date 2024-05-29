@@ -20,15 +20,10 @@ include ('includes/head_start.inc.php');
 
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Bienvenidos a Nuestro Sitio Web - Palabras Clave Principales">
+<meta name="twitter:title" content="Mecanografía | Inicio">
 <meta name="twitter:description"
   content="TypingGenius. Bienvenidos a nuestro sitio web de mecanografía. Conoce todo detrás de esta habilidad imensamente demandada hoy en día dentro del sector tecnológico.">
 <!-- <meta name="twitter:image" content="https://www.tusitio.com/images/homepage.jpg"> -->
-
-<!-- Idioma y Geolocalización -->
-<meta name="language" content="es">
-<meta name="geo.region" content="ES-M">
-<meta name="geo.placename" content="Madrid">
 
 <!-- Imports -->
 <link rel="stylesheet" href="assets/CSS/styles.css" />
