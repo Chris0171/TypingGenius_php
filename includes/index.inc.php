@@ -23,12 +23,11 @@ session_start();
     ?>
   </div>
 </div>
-
+<h1 class="text-center text-white"><span>Fundamentos de la Mecanografía</span></h1> <br>
 <div class="row justify-content-center align-items-center m-0 mt-3">
   <div class="col-11 col-md-10 mb-3 mb-md-0 text-white">
     <div class="card-bg-tech p-4">
-      <h1 class="text-center text-warning">Fundamentos de la Mecanografía</h1> <br>
-      <h2>¿Por qué es tan importante aprender a escribir rápido y preciso?</h2>
+      <h2 class="mb-3"><span>¿Por qué es tan importante aprender a escribir rápido y preciso?</span></h2>
       <p>En un mundo cada vez más digitalizado, la habilidad de mecanografía se ha convertido en un activo invaluable.
         ¿Por qué? Porque la capacidad de escribir rápidamente y con precisión en un teclado no solo es una destreza
         técnica, sino también una herramienta esencial para el éxito en el ámbito laboral y académico. En este artículo,
@@ -40,9 +39,7 @@ session_start();
         por lo tanto, no es solo una habilidad técnica, sino una competencia clave que puede mejorar significativamente
         la eficiencia en diversas áreas de la vida.</p>
       <br>
-      <hr class="text-warning border-2 opacity-75">
-      <br>
-      <h2>Productividad y ergonomía</h2>
+      <h2 class="mb-3"><span>Productividad y ergonomía</span></h2>
       <p>Una de las principales razones para aprender mecanografía es el aumento significativo de la productividad que
         ofrece. Imagina poder escribir un correo electrónico, un informe o incluso un mensaje de texto con rapidez y
         eficiencia. Esta habilidad te permite completar tareas en menos tiempo, lo que te deja más espacio para abordar
@@ -56,10 +53,7 @@ session_start();
         su vez disminuye el riesgo de lesiones por esfuerzo repetitivo (RSI). Una postura adecuada y movimientos fluidos
         son fundamentales para mantener la salud a largo plazo mientras trabajas en un entorno digital.</p>
       <br>
-      <hr class="text-warning border-2 opacity-75">
-      <br>
-      <h2>Prevención de errores por esfuerzo repetitivo (RSI)</h2>
-      
+      <h2 class="mb-3"><span>Prevención de errores por esfuerzo repetitivo (RSI)</span></h2>
       <p>El RSI es un problema común entre aquellos que pasan largas horas frente a una computadora. Los movimientos
         repetitivos y la tensión muscular pueden causar dolores crónicos en las manos, muñecas y brazos. Sin embargo, al
         dominar la mecanografía, puedes minimizar el riesgo de desarrollar estas lesiones, ya que aprenderás a escribir
@@ -73,12 +67,15 @@ session_start();
         digital en la que vivimos, dominar la mecanografía es una inversión en tu futuro laboral y bienestar personal.
       </p>
       <br>
-      <hr class="text-warning border-2 opacity-75">
-      <br>
-      <h2>Técnicas</h2>
-      <ul>
-        <li>
-          <h4>Mecanografía al tacto <span class="text-info">(touch typing)</span></h4>
+      <h2 class="mb-3"><span>Técnicas de mecanografía</span></h2>
+      <p>Existen varias técnicas de mecanografía que se han desarrollado para mejorar la velocidad y precisión al
+        escribir en un teclado. Ahora se procederá a explicar algunas de las más comunes.</p>
+      <div class="row">
+        <div class="col-12 col-md-4 p-2 rounded">
+          <img src="../assets/images/others/touchTyping.png" alt="" class="img-fluid img-st text-center">
+        </div>
+        <div class="col-12 col-md-8 p-3">
+          <h4 class="mb-3"><span>Mecanografía al tacto (touch typing)</span></h4>
           <p>
             Esta técnica de escritura con teclado (también llamado escritura a ciegas o Touch typing, en inglés) es un
             estilo que no requiere fijar la vista en el teclado para encontrar las teclas. Un mecanógrafo que lo use,
@@ -95,9 +92,9 @@ session_start();
               class="text-warning">"f-g"</span> y <span class="text-warning">"h-j"</span>, utilizando siempre los dedos
             pulgares para la barra espaciadora. De la misma manera se procede en las otras filas de letras. Esto
             facilitará el acceso prácticamente a todo el teclado con leves movimientos de manos.</p>
-        </li>
-        <li>
-          <h4>Mecanografía con dos dedos</h4>
+        </div>
+        <b class="col-12">
+          <h4 class="mb-3"><span>Mecanografía con dos dedos</span></h4>
           <p>
             Escribir con dos dedos es una forma común de escribir en la que el mecanógrafo presiona cada tecla
             individualmente. En lugar de confiar en la posición memorizada de las teclas, el mecanógrafo debe encontrar
@@ -107,18 +104,16 @@ session_start();
             unos pocos dedos en esta técnica, esto también significa que los dedos se ven obligados a moverse una
             distancia mucho mayor.
           </p>
-        </li>
-        <li>
-          <h4>Mecanografía con pulgares</h4>
+          <br>
+          <h4 class="mb-3"><span>Mecanografía con pulgares</span></h4>
           <p>Una tendencia de finales del siglo XX en la mecanografía, que se usa principalmente con dispositivos con
             teclados pequeños (como PDA y teléfonos inteligentes), es la escritura con el pulgar o con el pulgar. Esto
             se puede lograr usando solo un pulgar o ambos pulgares, y los mecanógrafos más competentes alcanzan
             velocidades de 100 palabras por minuto. Al igual que los teclados de escritorio y los dispositivos de
             entrada, si un usuario abusa de las teclas que necesitan presionar con fuerza y/o tienen diseños pequeños y
             poco ergonómicos, podría causar tendinitis en el pulgar u otra lesión por esfuerzo repetitivo.</p>
-        </li>
-        <li>
-          <h4>Sin método</h4>
+          <br>
+          <h4 class="mb-3"><span>Sin método</span></h4>
           <p>Hay muchos estilos de escritura idiosincrásicos entre usar los dos dedos al estilo novato y la escritura
             "touch typing". Por ejemplo, muchos mecanógrafos de dos dedos tienen memorizada la distribución del teclado
             y pueden escribir mientras enfocan su mirada en la pantalla. Algunos usan solo dos dedos, mientras que otros
@@ -134,10 +129,10 @@ session_start();
             citar a la candidata a doctorado Anna Feit: "Nos sorprendió observar que las personas que tomaron un curso
             de mecanografía se desempeñaron a una velocidad y precisión promedio similares a las que se enseñaron a
             escribir por sí mismos y solo usaron 6 dedos en promedio".</p> <!-- // TODO: Revisarlo -->
-        </li>
-      </ul>
+      </div>
     </div>
   </div>
+</div>
 </div>
 <div class="row justify-content-center align-items-center m-0 mt-3">
   <div class="col-11 col-md-5 mb-3 mb-md-0">
