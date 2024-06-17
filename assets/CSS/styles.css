@@ -294,3 +294,7 @@ h1 span{
 	box-shadow: 0px 0px 15px 1px #e2d9339c;
 }
 
+h4 span{
+	text-decoration: underline solid #339fe2;
+	text-underline-offset: 7px;
+}
