@@ -1,2 +1,3 @@
-# TypingGenius_php
+# TypingGenius app
+
 ## Description
